@@ -40,7 +40,6 @@ Given the number of people in the room, calculate the probability that any two p
 
 ```
 def calculate_probability(n):
-
     return probability
 ```
 
