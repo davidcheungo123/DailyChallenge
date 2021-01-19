@@ -64,6 +64,51 @@ def middle(string):
     return middle_string
 ```
 
+## Daily Python Challenge 7
+Given a list of integers, create a function that finds the odd one out in the list.
+
+Example:
+
+Input: [1,1,1,1,1,1,1,2]
+
+Output: 2
+
+## Daily Python Challenge 8
+Given two integer inputs n and d, create a function that squares all numbers from 1 to n, then returns the count of all instances of d from the square results.  
+
+Example: 
+n: 5
+d: 1
+
+square of numbers from 1 to 5: 1, 4, 9, 16, 25
+returns: 2 (since there's 2 instances of the digit 1, in 1 and 16)
+
+## Daily Python Challenge 9
+Given a string, add or subtract numbers and return the answer.
+
+Example:
+Input: 1plus2plus3minus4
+Output: 2
+
+Input: 2minus6plus4plus7
+Output: 7
+
+## Daily Python Challenge 10
+Given an integer, create a function that finds and returns the length of the longest binary gap of the binary representation of that integer. A binary gap is the sequence of consecutive zeros in between ones in a binary representation. Reference for binary representation can be found here: https://www.rapidtables.com/convert/number/decimal-to-binary.html
+
+Example:
+Input: 9, which has binary representation 1001
+Returns: 2
+
+Input: 529, which has binary representation 1000010001
+Returns: 4
+
+Input: 20, which has binary representation 10100
+Returns: 1
+
+Input: 15, which has binary representation 1111
+Returns: 0
+
 
 
 
