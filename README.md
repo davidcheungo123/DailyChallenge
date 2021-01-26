@@ -143,6 +143,7 @@ Output = ["ab", "cd", "ef"]
 ## Daily Python Challenge 14
 Given a list of integers, split the list into two, put the arrays on top of each other, then add them together. Return the finished list.
 
+
 Example:
 Input:
 [1, 2, 3, 4, 5, 6, 7]
