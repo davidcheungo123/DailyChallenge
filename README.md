@@ -93,6 +93,7 @@ Output: 2
 Input: 2minus6plus4plus7
 Output: 7
 
+
 ## Daily Python Challenge 10
 Given an integer, create a function that finds and returns the length of the longest binary gap of the binary representation of that integer. A binary gap is the sequence of consecutive zeros in between ones in a binary representation. Reference for binary representation can be found here: https://www.rapidtables.com/convert/number/decimal-to-binary.html
 
@@ -108,6 +109,91 @@ Returns: 1
 
 Input: 15, which has binary representation 1111
 Returns: 0
+
+
+## Daily Python Challenge 11
+Given a string, return the character with the most value. The value of a character is the difference between the index of its first occurrence and the index of its last occurrence. If there is a tie, return the character that goes first alphabetically.
+
+Example:
+Input: 'abcdbcd'
+Output: 'b', since difference between first index and last index = 4 - 1 = 3, which ties with the values of c and d but since b goes first alphabetically, that's the most valuable character.
+
+
+## Daily Python Challenge 12
+Given a list of 5 floats, return a tuple of the average of the middle 3 floats and the lowest float of that list.
+
+Example:
+Input:
+[6.4, 11.4, 7.6, 10.5, 8.1]
+Returns:
+(9.83, 6.4), 9.83 (rounded off to nearest two decimal places) is the average of 11.4, 7.6 and 10.5 and 6.4 is the lowest float of the list.
+
+
+## Daily Python Challenge 13
+Given a string, create a function that splits the string into pairs of two characters. Put the pairs inside a list then return the list. If a character is missing in a pair, use the character '?' to replace the missing character.
+
+Example:
+Input: "abcdefg"
+Output = ["ab", "cd", "ef", "g?"]
+
+Input: "abcdef"
+Output = ["ab", "cd", "ef"]
+
+
+## Daily Python Challenge 14
+Given a list of integers, split the list into two, put the arrays on top of each other, then add them together. Return the finished list.
+
+Example:
+Input:
+[1, 2, 3, 4, 5, 6, 7]
+Putting on top:
+[1, 2, 3]
+[4, 5, 6, 7]
+Adding up process:
+[1, 2, 3]
++
+[4, 5, 6, 7]
+------------
+[5, 7, 9, 7]
+Returns:
+[5, 7, 9, 7]
+
+
+## Daily Python Challenge 15
+Given two lists of any data type, return a list that combines the two lists by alternating the elements passed. The input lists can be of different lengths.
+
+Example 1:
+Input lists: 
+[1, 2, 3, 4, 5]
+['a', 'b', 'c', 'd', 'e']
+Returns:
+[1, 'a', 2, b', 3, 'c', 4, 'd', 5, 'e']
+
+Example 2:
+Input lists:
+[1, 2, 3]
+['a', 'b', 'c', 'd', 'e']
+Returns:
+[1, 'a', 2, 'b', 3, 'c', 'd', 'e']
+
+Example 3:
+Input lists:
+[1, 2, 3, 4, 5]
+['a', 'b']
+Returns:
+[1, 'a', 2, 'b', 3, 4, 5]
+
+
+## Daily Python Challenge 16
+Given an integer n, find all the integers that is the multiple of 3 from 0 to n. Return the sum of all these integers.
+
+Example:
+Input: 
+10
+Multiples of 3 from 0 to 10:
+3, 6, 9
+Return sum of these integers:
+18
 
 
 
