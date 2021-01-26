@@ -145,17 +145,29 @@ Given a list of integers, split the list into two, put the arrays on top of each
 
 
 Example:
+
 Input:
+
 [1, 2, 3, 4, 5, 6, 7]
+
 Putting on top:
+
 [1, 2, 3]
+
 [4, 5, 6, 7]
+
 Adding up process:
+
 [1, 2, 3]
+
 +
+
 [4, 5, 6, 7]
+
 Returns:
+
 [5, 7, 9, 7]
+
 
 
 ## Daily Python Challenge 15
