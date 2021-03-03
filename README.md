@@ -206,6 +206,103 @@ Multiples of 3 from 0 to 10:
 Return sum of these integers:
 18
 
+## Daily Python Challenge 17
+Given a list of 11 integers, return a string in the form of a Hong Kong phone number in this format: +852 xxxx xxxx
+
+Only the numbers 2, 3, 5, 6, 7, and 9 can be added after the extension 852.
+
+Example 1:
+
+Input:
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]
+
+Returns:
+
+"+852 9134 6701"
+
+
+## Daily Python Challenge 18
+Given an integer greater than 0, return a list of all possible palindromes of the integer.
+
+Example:
+
+Input: 
+
+34322122
+
+Output:
+
+[22, 212, 343, 22122]
+
+## Daily Python Challenge 19
+Given a string of names with a certain pattern, return a formatted string with a certain pattern. 
+
+Example:
+
+Input:
+
+"Alfred:Black;Carey:Drake;Elena:Ferguson;Georgina:Harrison"
+
+Output:
+
+"(BLACK, ALFRED)(DRAKE, CAREY)(FERGUSON, ELENA)(HARRISON, GEORGINA)"
+
+## Daily Python Challenge 20
+Given a string, count all the lowercase letters. Return a dictionary with the keys as the lowercase letters and the values as the letters' counts respectively. The keys should be sorted in alphabetical order.
+
+Example:
+
+Input:
+
+"apple"
+
+Output:
+
+{'a': 1, 'e': 1, 'l': 1, 'p': 2}
+
+## Daily Python Challenge 21
+Given a list of mixed integers of different representations, add up the non-string integers and subtract this from the total of string integers.
+
+
+
+Example:
+
+Input:
+
+[1, '2', 3, '4', 5]
+
+Output:
+
+-3, because:
+
+total of non-string integers = 1+3+5 = 9
+
+total of string integers = 2+4 = 6
+
+total of string integers - total of non-string integers = -3 
+
+## Daily Python Challenge 22
+Given a string of decimal digits, output an integer of its binary representation like below:
+
+Example:
+
+Input: "2973"
+
+"2" => 10
+
+"9" => 1001
+
+"7" => 111
+
+"3" => 11
+
+Therefore output is 10100111111, because of 10+1001+111+11.
+
+
+
+
+
 
 
 
